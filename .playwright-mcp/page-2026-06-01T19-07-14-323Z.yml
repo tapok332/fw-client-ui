@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link "Back" [ref=e27] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e28]
+      - heading "Адреси" [level=1] [ref=e30]
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - img [ref=e54]
+        - generic [ref=e57]: Додати нову адресу
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - text: Назва адреси
+            - textbox "Назва адреси" [ref=e61]:
+              - /placeholder: "Наприклад: Дім, Робота, Дача"
+          - generic [ref=e62]:
+            - text: Тип адреси
+            - combobox "Тип адреси" [ref=e63] [cursor=pointer]:
+              - generic: Дім
+              - img [ref=e64]
+            - combobox [ref=e66]
+          - generic [ref=e67]:
+            - text: Вулиця
+            - textbox "Вулиця" [ref=e68]:
+              - /placeholder: Вул. Хрещатик, 1
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - text: Місто
+              - textbox "Місто" [ref=e71]:
+                - /placeholder: Київ
+            - generic [ref=e72]:
+              - text: Область
+              - textbox "Область" [ref=e73]:
+                - /placeholder: Київська
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - text: Поштовий індекс
+              - textbox "Поштовий індекс" [ref=e76]:
+                - /placeholder: "01001"
+            - generic [ref=e77]:
+              - text: Країна
+              - textbox "Країна" [ref=e78]:
+                - /placeholder: Україна
+        - generic [ref=e79]:
+          - button "Скасувати" [ref=e80] [cursor=pointer]:
+            - img
+            - text: Скасувати
+          - button "Зберегти адресу" [disabled]
+    - generic [ref=e42]:
+      - heading "Інформація про адреси" [level=2] [ref=e43]
+      - paragraph [ref=e44]: • Основна адреса використовується при оформленні замовлення
+      - paragraph [ref=e45]: • Додавайте кілька адрес для різних цілей
+      - paragraph [ref=e46]: • Вказуйте точну інформацію для уникнення проблем з доставкою
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e47]

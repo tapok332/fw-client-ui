@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e57]

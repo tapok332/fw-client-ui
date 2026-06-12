@@ -1,0 +1,11 @@
+[     378ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/profiles/me:0
+[     378ms] [WARNING] [FoodWise] API error: /profiles/me API error: 401 @ http://localhost:3000/_next/static/chunks/960-cfaa52abc4d002b9.js:0
+[     579ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/stores:0
+[     579ms] [WARNING] [FoodWise] API error: /stores API error: 503 @ http://localhost:3000/_next/static/chunks/960-cfaa52abc4d002b9.js:0
+[     583ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/home/category-icons:0
+[     584ms] [WARNING] [FoodWise] API error: /home/category-icons API error: 503 @ http://localhost:3000/_next/static/chunks/960-cfaa52abc4d002b9.js:0
+[     585ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/home/hero-images:0
+[     585ms] [WARNING] [FoodWise] API error: /home/hero-images API error: 503 @ http://localhost:3000/_next/static/chunks/960-cfaa52abc4d002b9.js:0
+[     604ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/home/boxes:0
+[     604ms] [WARNING] [FoodWise] API error: /home/boxes API error: 503 @ http://localhost:3000/_next/static/chunks/960-cfaa52abc4d002b9.js:0
+[     692ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0

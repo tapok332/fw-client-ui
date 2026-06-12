@@ -1,0 +1,19 @@
+[     297ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:9002/login:0
+[     332ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     369ms] [LOG] No cart data found in localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1915
+[     369ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[     369ms] [LOG] Making API request to: http://localhost:8082/home/boxes @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     370ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     370ms] [LOG] Making API request to: http://localhost:8082/home/hero-images @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     370ms] [LOG] Making API request to: http://localhost:8082/home/category-icons @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   25728ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:9002/login:0
+[   25773ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[   25809ms] [WARNING] Cart data in localStorage is not an array, resetting: {items: Array(0), totalPrice: 0} @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1910
+[   25809ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[   25809ms] [LOG] Making API request to: http://localhost:8082/home/boxes @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   25810ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   25810ms] [LOG] Making API request to: http://localhost:8082/home/hero-images @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   25810ms] [LOG] Making API request to: http://localhost:8082/home/category-icons @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   25833ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[   56328ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   56369ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809

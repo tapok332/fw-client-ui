@@ -1,0 +1,73 @@
+- generic [active]:
+  - generic [ref=e1]:
+    - generic [ref=e2]:
+      - link "FoodWise" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - img [ref=e4]
+        - generic [ref=e7]: FoodWise
+      - button [ref=e8] [cursor=pointer]:
+        - img
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - img [ref=e14]
+        - generic [ref=e16]:
+          - generic [ref=e18]:
+            - img [ref=e20]
+            - generic [ref=e23]: FoodWise
+          - heading "Рятуйте їжу, економте гроші" [level=2] [ref=e24]:
+            - text: Рятуйте їжу,
+            - text: економте гроші
+          - paragraph [ref=e25]: Приєднуйтесь до спільноти свідомих споживачів, які рятують їжу від утилізації та роблять планету кращою.
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - img [ref=e29]
+              - generic [ref=e33]:
+                - paragraph [ref=e34]: 10,000+
+                - paragraph [ref=e35]: врятованих порцій
+            - generic [ref=e36]:
+              - img [ref=e38]
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: 500+
+                - paragraph [ref=e42]: партнерів
+            - generic [ref=e43]:
+              - img [ref=e45]
+              - generic [ref=e52]:
+                - paragraph [ref=e53]: 2,000 кг
+                - paragraph [ref=e54]: їжі збережено
+      - generic [ref=e57]:
+        - img [ref=e60]
+        - generic [ref=e63]:
+          - heading "Увійти" [level=1] [ref=e64]
+          - paragraph [ref=e65]: Рятуйте їжу, економте гроші
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - text: Email
+            - generic [ref=e68]:
+              - textbox "Email" [ref=e69]:
+                - /placeholder: example@email.com
+              - img [ref=e70]
+          - generic [ref=e73]:
+            - text: Пароль
+            - generic [ref=e74]:
+              - textbox "Пароль" [ref=e75]:
+                - /placeholder: ••••••••
+              - button [ref=e76] [cursor=pointer]:
+                - img
+          - button "Увійти" [ref=e78] [cursor=pointer]
+        - generic [ref=e80]:
+          - separator [ref=e81]
+          - generic [ref=e82]: або
+          - separator [ref=e83]
+        - button "Google Увійти через Google" [ref=e85] [cursor=pointer]:
+          - img "Google" [ref=e86]
+          - text: Увійти через Google
+        - paragraph [ref=e88]:
+          - text: Немає облікового запису?
+          - link "Зареєструватися" [ref=e89] [cursor=pointer]:
+            - /url: /register
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=e95] [cursor=pointer]:
+    - img [ref=e96]
+  - alert [ref=e99]

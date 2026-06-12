@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - button [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+      - button [ref=e32] [cursor=pointer]:
+        - img [ref=e33]
+    - generic [ref=e35]:
+      - generic [ref=e39]:
+        - heading "Фільтри" [level=3] [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: Мінімальний рейтинг
+              - generic [ref=e46]: Всі
+            - slider [ref=e50]
+            - generic [ref=e51]:
+              - generic [ref=e52]: "0"
+              - generic [ref=e53]: "5"
+          - generic [ref=e54]:
+            - generic [ref=e55]: Відкрито зараз
+            - switch "Відкрито зараз" [ref=e56] [cursor=pointer]
+          - generic [ref=e57]:
+            - generic [ref=e58]: Рівень цін
+            - generic [ref=e59]:
+              - button "₴" [ref=e60] [cursor=pointer]
+              - button "₴₴" [ref=e61] [cursor=pointer]
+              - button "₴₴₴" [ref=e62] [cursor=pointer]
+              - button "₴₴₴₴" [ref=e63] [cursor=pointer]
+          - generic [ref=e64]:
+            - generic [ref=e65]: Сортувати за
+            - combobox [ref=e67] [cursor=pointer]:
+              - generic: За рейтингом
+              - img [ref=e68]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]: Максимальна відстань
+              - generic [ref=e73]: 10 км
+            - slider [ref=e78]
+            - generic [ref=e79]:
+              - generic [ref=e80]: 0 км
+              - generic [ref=e81]: 10 км
+          - button "Скинути фільтри" [ref=e82] [cursor=pointer]
+      - generic [ref=e85]:
+        - heading "Товари категорії" [level=2] [ref=e87]
+        - link "Фото закладу Mama Mia Pizzeria Mama Mia Pizzeria 4.6 • 6.8 км Khreshchatyk 2, Kyiv" [ref=e139] [cursor=pointer]:
+          - /url: /stores/c29bc866-626e-4a16-97f2-0c7b28186d61
+          - generic [ref=e140]:
+            - img "Фото закладу Mama Mia Pizzeria" [ref=e142]
+            - generic [ref=e143]:
+              - heading "Mama Mia Pizzeria" [level=3] [ref=e144]
+              - generic [ref=e145]:
+                - img [ref=e146]
+                - generic [ref=e148]: "4.6"
+                - generic [ref=e149]: •
+                - generic [ref=e150]: 6.8 км
+              - generic [ref=e151]:
+                - img [ref=e152]
+                - paragraph [ref=e155]: Khreshchatyk 2, Kyiv
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e137]

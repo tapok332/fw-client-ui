@@ -1,0 +1,69 @@
+[     320ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:9002/login:0
+[     358ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     412ms] [LOG] No cart data found in localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1915
+[     412ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[     413ms] [LOG] Making API request to: http://localhost:8082/home/boxes @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     413ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     414ms] [LOG] Making API request to: http://localhost:8082/home/hero-images @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     414ms] [LOG] Making API request to: http://localhost:8082/home/category-icons @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   20098ms] [WARNING] Image with src "https://picsum.photos/id/292/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[   20113ms] [LOG] Making API request to: http://localhost:8082/home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   20113ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   20114ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   20114ms] [LOG] Making API request to: http://localhost:8082/home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   20116ms] [LOG] Reusing in-flight request for /home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   20116ms] [LOG] Reusing in-flight request for /home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   20116ms] [LOG] Reusing in-flight request for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   20117ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   20122ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   20376ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[   20376ms] [LOG] Reusing in-flight request for /home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   25118ms] [WARNING] Image with src "https://picsum.photos/id/431/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[   30120ms] [WARNING] Image with src "https://picsum.photos/id/429/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[  128540ms] [WARNING] Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element: JSHandle@node @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_8db7fb1f._.js:252
+[  128541ms] [WARNING] Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element: JSHandle@node @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_8db7fb1f._.js:252
+[  128640ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:9002/login:0
+[  130760ms] [LOG] Making API request to: http://localhost:8082/home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  130761ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  130761ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  130762ms] [LOG] Making API request to: http://localhost:8082/home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  130763ms] [LOG] Reusing in-flight request for /home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  130763ms] [LOG] Reusing in-flight request for /home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  130763ms] [LOG] Reusing in-flight request for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  130764ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  130769ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  130990ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  130991ms] [LOG] Reusing in-flight request for /home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  134883ms] [WARNING] Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element: JSHandle@node @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_8db7fb1f._.js:252
+[  134883ms] [WARNING] Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element: JSHandle@node @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_8db7fb1f._.js:252
+[  134982ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:9002/login:0
+[  202637ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  202658ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  434028ms] [LOG] Making API request to: http://localhost:8082/home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  434029ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  434029ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  434030ms] [LOG] Making API request to: http://localhost:8082/home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  434031ms] [LOG] Reusing in-flight request for /home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  434031ms] [LOG] Reusing in-flight request for /home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  434031ms] [LOG] Reusing in-flight request for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  434032ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  434037ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  434266ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  434266ms] [LOG] Reusing in-flight request for /home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  440375ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  440664ms] [LOG] [Fast Refresh] done in 391ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  517538ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  517582ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  682401ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  682456ms] [LOG] [Fast Refresh] done in 145ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  714041ms] [LOG] Making API request to: http://localhost:8082/home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  714041ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  714042ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  714043ms] [LOG] Making API request to: http://localhost:8082/home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  714047ms] [LOG] Reusing in-flight request for /home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  714047ms] [LOG] Reusing in-flight request for /home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  714047ms] [LOG] Reusing in-flight request for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  714047ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  714052ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[  714342ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[  714342ms] [LOG] Reusing in-flight request for /home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440

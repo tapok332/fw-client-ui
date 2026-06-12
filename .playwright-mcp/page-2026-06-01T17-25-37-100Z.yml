@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - heading "Зареєструватися - FoodWise" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Рятуйте їжу, економте гроші
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: Ім'я (необов'язково)
+        - textbox "Ім'я (необов'язково)" [ref=e33]:
+          - /placeholder: Ваше ім'я
+      - generic [ref=e34]:
+        - text: Email
+        - textbox "Email" [ref=e35]:
+          - /placeholder: example@email.com
+      - generic [ref=e36]:
+        - text: Пароль
+        - generic [ref=e37]:
+          - generic [ref=e39]: "Вимоги до паролю:"
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - generic [ref=e44]: Мінімум 8 символів
+            - listitem [ref=e45]:
+              - generic [ref=e47]: Мінімум 1 велику літеру
+            - listitem [ref=e48]:
+              - generic [ref=e50]: Мінімум 1 цифру
+            - listitem [ref=e51]:
+              - generic [ref=e53]: Мінімум 1 спеціальний символ (!@#$%^&*)
+        - generic [ref=e54]:
+          - textbox "Пароль" [ref=e55]:
+            - /placeholder: ••••••••
+          - button "Показати пароль" [ref=e56] [cursor=pointer]:
+            - img
+      - generic [ref=e57]:
+        - text: Підтвердіть пароль
+        - textbox "Підтвердіть пароль" [ref=e59]:
+          - /placeholder: ••••••••
+      - button "Зареєструватися" [ref=e60] [cursor=pointer]
+    - paragraph [ref=e62]:
+      - text: Немає облікового запису?
+      - link "Увійти" [ref=e63] [cursor=pointer]:
+        - /url: /login
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e64]

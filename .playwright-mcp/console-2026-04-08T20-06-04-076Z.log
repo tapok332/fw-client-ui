@@ -1,0 +1,21 @@
+[     234ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     304ms] [WARNING] Image with src "https://picsum.photos/1200/600" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[     320ms] [LOG] Making API request to: http://localhost:8082/home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     320ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     321ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     321ms] [LOG] Making API request to: http://localhost:8082/home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     321ms] [LOG] No cart data found in localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1915
+[     321ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[     322ms] [LOG] Making API request to: http://localhost:8082/home/boxes @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     322ms] [LOG] Reusing in-flight request for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[     322ms] [LOG] Making API request to: http://localhost:8082/home/hero-images @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     323ms] [LOG] Making API request to: http://localhost:8082/home/category-icons @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     345ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[     555ms] [WARNING] Image with src "https://picsum.photos/id/292/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[     564ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     569ms] [LOG] Using cached response for /home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2435
+[     569ms] [LOG] Using cached response for /home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2435
+[     569ms] [LOG] Using cached response for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2435
+[     570ms] [LOG] Reusing in-flight request for /home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[   11960ms] [WARNING] Image with src "https://picsum.photos/id/431/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[   16958ms] [WARNING] Image with src "https://picsum.photos/id/429/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968

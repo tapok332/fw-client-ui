@@ -1,0 +1,51 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - link "Кошик" [ref=e11] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e12]
+        - generic [ref=e16]: Кошик
+      - link "Профіль" [ref=e17] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e18]
+        - generic [ref=e21]: Профіль
+  - generic [ref=e23]:
+    - region "Рекламна карусель" [ref=e25]:
+      - img "Рекламна карусель" [ref=e28]
+      - generic [ref=e30]:
+        - heading "Рятуйте їжу" [level=1] [ref=e31]
+        - link "Переглянути заклади" [ref=e32] [cursor=pointer]:
+          - /url: /category/restaurant
+          - generic [ref=e33]: Переглянути заклади
+      - generic [ref=e34]:
+        - button "Go to slide 1" [ref=e35] [cursor=pointer]
+        - button "Go to slide 2" [ref=e36] [cursor=pointer]
+        - button "Go to slide 3" [ref=e37] [cursor=pointer]
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "Популярні заклади" [level=2] [ref=e46]
+        - link "Всі" [ref=e47] [cursor=pointer]:
+          - /url: /category/restaurant
+      - generic [ref=e48]:
+        - img [ref=e49]
+        - heading "Немає популярних закладів" [level=3] [ref=e54]
+        - paragraph [ref=e55]: Спробуйте інший запит
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - heading "Заклади поблизу" [level=2] [ref=e58]
+        - link "Всі" [ref=e59] [cursor=pointer]:
+          - /url: /category/restaurant
+      - generic [ref=e60]:
+        - img [ref=e61]
+        - heading "Немає закладів поблизу" [level=3] [ref=e66]
+        - paragraph [ref=e67]: Спробуйте інший запит
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=e73] [cursor=pointer]:
+    - img [ref=e74]
+  - alert [ref=e77]

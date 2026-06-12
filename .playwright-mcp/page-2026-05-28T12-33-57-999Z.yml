@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - img
+    - generic:
+      - img
+    - generic [ref=e3]:
+      - region "Рекламна карусель" [ref=e5]:
+        - img "Рекламна карусель - 1" [ref=e8]
+        - img
+        - generic [ref=e11]: Сьогодні · до -70%
+        - generic [ref=e13]:
+          - paragraph [ref=e14]: Сюрприз-бокси поблизу
+          - heading "Рятуйте їжу" [level=1] [ref=e15]
+          - link "Переглянути заклади" [ref=e16] [cursor=pointer]:
+            - /url: /restaurants
+            - text: Переглянути заклади
+            - img
+        - generic [ref=e17]:
+          - button "Рекламна карусель 1" [ref=e18] [cursor=pointer]:
+            - generic [ref=e20]: 🍞
+          - button "Рекламна карусель 2" [ref=e21] [cursor=pointer]:
+            - generic [ref=e23]: 💰
+          - button "Рекламна карусель 3" [ref=e24] [cursor=pointer]:
+            - generic [ref=e26]: 🌍
+      - generic [ref=e37]:
+        - heading "Популярні заклади" [level=2] [ref=e38]: Популярні заклади
+        - link "Всі" [ref=e40] [cursor=pointer]:
+          - /url: /restaurants
+      - generic [ref=e61]:
+        - heading "Заклади поблизу" [level=2] [ref=e62]: Заклади поблизу
+        - link "Всі" [ref=e64] [cursor=pointer]:
+          - /url: /restaurants
+  - navigation [ref=e84]:
+    - link "Рекомендації" [ref=e85] [cursor=pointer]:
+      - /url: /
+      - img [ref=e87]
+      - generic [ref=e90]: Рекомендації
+    - link "Ресторани" [ref=e91] [cursor=pointer]:
+      - /url: /restaurants
+      - img [ref=e93]
+      - generic [ref=e96]: Ресторани
+    - link "Магазини" [ref=e97] [cursor=pointer]:
+      - /url: /stores
+      - img [ref=e99]
+      - generic [ref=e104]: Магазини
+    - link "Обране" [ref=e105] [cursor=pointer]:
+      - /url: /favorites
+      - img [ref=e107]
+      - generic [ref=e109]: Обране
+    - link "Кошик" [ref=e110] [cursor=pointer]:
+      - /url: /cart
+      - img [ref=e112]
+      - generic [ref=e116]: Кошик
+    - link "Профіль" [ref=e117] [cursor=pointer]:
+      - /url: /profile
+      - img [ref=e119]
+      - generic [ref=e122]: Профіль
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e124]

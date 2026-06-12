@@ -1,0 +1,2 @@
+[ 1069468ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/addresses:0
+[54300973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/auth/refresh-token:0

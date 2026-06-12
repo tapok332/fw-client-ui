@@ -1,0 +1,248 @@
+/* =============================================================================
+   FoodWise — Colors & Type
+   Organic Biophilic: warm cream, forest green, earthy orange.
+   Source of truth: copied + extended from
+   fw-client-ui/src/app/globals.css + tailwind.config.ts
+   ============================================================================= */
+
+/* ---- Webfonts (Google Fonts, latin + cyrillic) ------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap&subset=cyrillic,latin');
+
+:root {
+  /* --------------------------------------------------------------------------
+     COLOR — RAW PALETTE (HSL channels; consumed via hsl(var(--token)))
+     -------------------------------------------------------------------------- */
+
+  /* Cream / warm neutrals (the "paper" the brand prints on) */
+  --cream-50:  40 33% 98%;   /* #FBF9F6 — page background */
+  --cream-100: 40 30% 96%;   /* card / surface white */
+  --cream-200: 40 20% 94%;   /* secondary / pill */
+  --cream-300: 40 15% 88%;   /* border / divider */
+  --cream-400: 40 12% 78%;
+  --cream-500: 40  8% 60%;
+
+  /* Forest greens (primary brand color — the "leaf") */
+  --forest-50:  140 35% 96%;
+  --forest-100: 142 40% 90%;
+  --forest-200: 144 45% 78%;
+  --forest-300: 145 50% 60%;
+  --forest-400: 145 55% 45%;
+  --forest-500: 145 63% 30%;   /* #1E7A3A — primary CTA, AAA on cream */
+  --forest-600: 148 65% 24%;
+  --forest-700: 150 60% 18%;
+  --forest-800: 150 30% 12%;   /* dark-mode card */
+  --forest-900: 150 20% 15%;   /* foreground text on cream */
+  --forest-950: 150 15%  8%;   /* dark-mode background */
+
+  /* Warm orange accent (the "harvest" — discounts, highlights) */
+  --orange-50:  32 100% 96%;
+  --orange-100: 32 95%  88%;
+  --orange-300: 32 92%  70%;
+  --orange-500: 32 90%  55%;   /* #E88A2D — accent */
+  --orange-600: 28 85%  46%;
+  --orange-700: 24 80%  38%;
+
+  /* Functional */
+  --red-500:    0 72% 51%;
+  --yellow-400: 45 95% 55%;     /* ratings */
+  --blue-500:   210 85% 50%;    /* information */
+
+  /* --------------------------------------------------------------------------
+     COLOR — SEMANTIC TOKENS (light) — match Tailwind/shadcn variable shape
+     -------------------------------------------------------------------------- */
+  --background:           var(--cream-50);
+  --foreground:           var(--forest-900);
+  --card:                 40 30% 99%;
+  --card-foreground:      var(--forest-900);
+  --popover:              40 30% 99%;
+  --popover-foreground:   var(--forest-900);
+  --primary:              var(--forest-500);
+  --primary-foreground:   0 0% 100%;
+  --secondary:            var(--cream-200);
+  --secondary-foreground: 150 15% 20%;
+  --muted:                40 15% 93%;
+  --muted-foreground:     150 8% 35%;
+  --accent:               var(--orange-500);
+  --accent-foreground:    0 0% 100%;
+  --destructive:          var(--red-500);
+  --destructive-foreground: 0 0% 98%;
+  --border:               var(--cream-300);
+  --input:                var(--cream-300);
+  --ring:                 var(--forest-500);
+  --discount-orange:      32 100% 50%;
+
+  /* --------------------------------------------------------------------------
+     SHAPE — radii, motion, density
+     -------------------------------------------------------------------------- */
+  --radius:        1rem;       /* 16px — base; cards = rounded-2xl */
+  --radius-sm:     0.5rem;     /* 8px  — input fields */
+  --radius-md:     0.75rem;    /* 12px — buttons */
+  --radius-lg:     1rem;       /* 16px — cards */
+  --radius-xl:     1.5rem;     /* 24px — large cards, store/box card */
+  --radius-2xl:    2rem;
+  --radius-pill:   9999px;     /* chips, badges, FAB */
+
+  --duration-fast:   120ms;
+  --duration-base:   200ms;    /* default transition */
+  --duration-slow:   300ms;
+  --ease-out-organic: cubic-bezier(0.23, 1, 0.32, 1); /* "biophilic" ease — slow finish */
+  --ease-standard:    ease;
+
+  /* --------------------------------------------------------------------------
+     SHADOWS — green-tinted, layered (never gray)
+     -------------------------------------------------------------------------- */
+  --shadow-soft-sm:
+    0 1px 2px  hsl(140 35% 18% / 0.04),
+    0 2px 8px  hsl(140 35% 18% / 0.04);
+  --shadow-soft:
+    0 1px 2px  hsl(140 35% 18% / 0.04),
+    0 2px 8px  hsl(140 35% 18% / 0.04),
+    0 8px 20px hsl(140 35% 18% / 0.04);
+  --shadow-soft-md:
+    0 1px 3px  hsl(140 35% 18% / 0.04),
+    0 4px 14px hsl(140 35% 18% / 0.05),
+    0 16px 36px hsl(140 35% 18% / 0.04);
+  --shadow-soft-lg:
+    0 2px 4px  hsl(140 35% 18% / 0.05),
+    0 8px 24px hsl(140 35% 18% / 0.06),
+    0 24px 56px hsl(140 35% 18% / 0.05);
+  --shadow-card:     0 4px 20px hsla(140, 50%, 12%, 0.06);
+  --shadow-card-hover: 0 8px 30px hsla(140, 50%, 12%, 0.10);
+  --shadow-cta:      0 4px 16px hsla(145, 63%, 30%, 0.30);
+  --shadow-nav-top: 0 -4px 20px hsla(140, 50%, 12%, 0.06);
+
+  /* --------------------------------------------------------------------------
+     SPACING — generous; aligns to 4px grid
+     -------------------------------------------------------------------------- */
+  --space-0:  0;
+  --space-1:  0.25rem;   /* 4 */
+  --space-2:  0.5rem;    /* 8 */
+  --space-3:  0.75rem;   /* 12 */
+  --space-4:  1rem;      /* 16 */
+  --space-5:  1.25rem;   /* 20 */
+  --space-6:  1.5rem;    /* 24 */
+  --space-8:  2rem;      /* 32 */
+  --space-10: 2.5rem;    /* 40 */
+  --space-12: 3rem;      /* 48 */
+  --space-16: 4rem;      /* 64 */
+
+  /* --------------------------------------------------------------------------
+     TYPE — base scale + semantic
+     -------------------------------------------------------------------------- */
+  --font-heading: 'Vollkorn', 'Charter', 'Iowan Old Style', Georgia, serif;
+  --font-body:    'Rubik', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --fs-display: clamp(2.5rem, 5vw, 3.75rem); /* 40–60 */
+  --fs-h1:      clamp(2rem, 3.5vw, 2.75rem); /* 32–44 */
+  --fs-h2:      1.75rem;   /* 28 */
+  --fs-h3:      1.25rem;   /* 20 */
+  --fs-h4:      1.125rem;  /* 18 */
+  --fs-body:    1rem;      /* 16 */
+  --fs-small:   0.875rem;  /* 14 */
+  --fs-xs:      0.75rem;   /* 12 */
+
+  --lh-tight:   1.1;
+  --lh-snug:    1.25;
+  --lh-normal:  1.5;
+  --lh-relaxed: 1.65;
+
+  --tracking-tight:  -0.02em;
+  --tracking-snug:   -0.01em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.04em;
+  --tracking-caps:    0.06em;
+}
+
+/* ---- Dark mode -------------------------------------------------------------- */
+.dark, [data-theme="dark"] {
+  --background:           var(--forest-950);
+  --foreground:           40 20% 95%;
+  --card:                 var(--forest-800);
+  --card-foreground:      40 20% 95%;
+  --popover:              var(--forest-800);
+  --popover-foreground:   40 20% 95%;
+  --primary:              var(--forest-400);
+  --primary-foreground:   0 0% 0%;
+  --secondary:            150 10% 16%;
+  --secondary-foreground: 40 20% 95%;
+  --muted:                150 10% 16%;
+  --muted-foreground:     40 10% 65%;
+  --accent:               var(--orange-500);
+  --accent-foreground:    0 0% 100%;
+  --border:               150 10% 18%;
+  --input:                150 10% 18%;
+  --ring:                 var(--forest-400);
+}
+
+/* =============================================================================
+   BASE + SEMANTIC ELEMENT STYLES
+   ============================================================================= */
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h-display, .h1, .h2, .h3, .h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  letter-spacing: var(--tracking-snug);
+  line-height: var(--lh-tight);
+  text-wrap: balance;
+}
+
+.h-display { font-size: var(--fs-display); font-weight: 700; letter-spacing: var(--tracking-tight); }
+h1, .h1   { font-size: var(--fs-h1); font-weight: 700; }
+h2, .h2   { font-size: var(--fs-h2); }
+h3, .h3   { font-size: var(--fs-h3); line-height: var(--lh-snug); }
+h4, .h4   { font-size: var(--fs-h4); line-height: var(--lh-snug); }
+
+p, .body {
+  font-size: var(--fs-body);
+  line-height: var(--lh-relaxed);
+  color: hsl(var(--foreground));
+  text-wrap: pretty;
+}
+.small, small  { font-size: var(--fs-small); line-height: var(--lh-normal); }
+.caption       { font-size: var(--fs-xs); line-height: var(--lh-normal); color: hsl(var(--muted-foreground)); }
+.eyebrow       {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: hsl(var(--primary));
+}
+
+a {
+  color: hsl(var(--primary));
+  text-decoration: none;
+  transition: color var(--duration-base) var(--ease-standard);
+}
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+code, kbd, samp, pre { font-family: var(--font-mono); font-size: 0.95em; }
+
+/* Numeric pricing — tabular figures for clean alignment */
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* ---- Reduced motion --------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Hide scrollbars (FoodWise default — keeps scroll behavior) ------------- */
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { width: 0; height: 0; display: none; }

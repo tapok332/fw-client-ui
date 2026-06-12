@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - heading "Ваші замовлення" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - paragraph [ref=e28]: У вас ще немає замовлень
+      - paragraph [ref=e29]: Ваші замовлення з'являться тут після здійснення покупки
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e30]

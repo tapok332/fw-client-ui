@@ -1,0 +1,29 @@
+[     255ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     286ms] [WARNING] Image with src "https://picsum.photos/1200/600" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[     298ms] [LOG] Making API request to: http://localhost:8082/home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     298ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     299ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     299ms] [LOG] Making API request to: http://localhost:8082/home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     300ms] [LOG] No cart data found in localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1915
+[     300ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[     300ms] [LOG] Making API request to: http://localhost:8082/home/boxes @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     301ms] [LOG] Reusing in-flight request for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[     301ms] [LOG] Making API request to: http://localhost:8082/home/hero-images @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     301ms] [LOG] Making API request to: http://localhost:8082/home/category-icons @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     322ms] [LOG] Reusing in-flight request for /home/stores/nearby?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[     529ms] [WARNING] Image with src "https://picsum.photos/id/292/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[     536ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2464
+[     540ms] [LOG] Using cached response for /home/boxes?lat=50.4501&lng=30.5234&radius=5 @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2435
+[     541ms] [LOG] Using cached response for /home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2435
+[     541ms] [LOG] Using cached response for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2435
+[     543ms] [LOG] Reusing in-flight request for /home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2440
+[    5300ms] [WARNING] Image with src "https://picsum.photos/id/431/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[   10299ms] [WARNING] Image with src "https://picsum.photos/id/429/1200/800" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:968
+[   54243ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   54610ms] [LOG] [Fast Refresh] done in 468ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   54712ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   54769ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  128260ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  128285ms] [LOG] [Fast Refresh] done in 73ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  144638ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  144665ms] [LOG] [Fast Refresh] done in 85ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809

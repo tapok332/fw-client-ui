@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link "Back" [ref=e27] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e28]
+      - heading "Адреси" [level=1] [ref=e30]
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - img [ref=e85]
+        - generic [ref=e88]: Ваші адреси
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Дім
+            - paragraph [ref=e94]: вул. Хрещатик, 1, Київ, Україна, 01001898989898998988
+            - generic [ref=e96]: HOME
+          - generic [ref=e97]:
+            - button "Зробити основною" [ref=e98] [cursor=pointer]
+            - button [ref=e99] [cursor=pointer]:
+              - img
+        - button "Додати нову адресу" [ref=e100] [cursor=pointer]:
+          - img
+          - generic [ref=e101]: Додати нову адресу
+    - generic [ref=e42]:
+      - heading "Інформація про адреси" [level=2] [ref=e43]
+      - paragraph [ref=e44]: • Основна адреса використовується при оформленні замовлення
+      - paragraph [ref=e45]: • Додавайте кілька адрес для різних цілей
+      - paragraph [ref=e46]: • Вказуйте точну інформацію для уникнення проблем з доставкою
+  - region "Notifications (F8)":
+    - list [ref=e103]:
+      - status [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: Успішно
+          - generic [ref=e107]: Адресу успішно додано
+        - button [ref=e108] [cursor=pointer]:
+          - img [ref=e109]
+  - alert [ref=e47]

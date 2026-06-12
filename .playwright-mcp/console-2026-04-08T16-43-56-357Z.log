@@ -1,0 +1,19 @@
+[     170ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[     498ms] [LOG] [Fast Refresh] done in 428ms @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[     639ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     685ms] [LOG] Making API request to: http://localhost:8082/home/categories @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2340
+[     686ms] [LOG] All restaurants before filtering: [] @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:1949
+[     686ms] [LOG] 0 of 0 restaurants have valid coordinates @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:1954
+[     686ms] [LOG] Filtered restaurants count: 0 @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:2010
+[     687ms] [LOG] No cart data found in localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1915
+[     687ms] [LOG] Empty cart, removed from localStorage @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:1945
+[     687ms] [LOG] Making API request to: http://localhost:8082/home/boxes @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2340
+[     687ms] [LOG] Making API request to: http://localhost:8082/stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2340
+[     688ms] [LOG] Making API request to: http://localhost:8082/home/hero-images @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2340
+[     688ms] [LOG] Making API request to: http://localhost:8082/home/category-icons @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2340
+[     920ms] [LOG] Making API request to: http://localhost:8082/home/featured-stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2340
+[    1129ms] [LOG] Using cached response for /stores @ http://localhost:9002/_next/static/chunks/src_a9be78c3._.js:2311
+[    1129ms] [LOG] Processed restaurants with coordinates: [] @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:1846
+[    1135ms] [LOG] All restaurants before filtering: [] @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:1949
+[    1135ms] [LOG] 0 of 0 restaurants have valid coordinates @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:1954
+[    1135ms] [LOG] Filtered restaurants count: 0 @ http://localhost:9002/_next/static/chunks/src_b8944071._.js:2010

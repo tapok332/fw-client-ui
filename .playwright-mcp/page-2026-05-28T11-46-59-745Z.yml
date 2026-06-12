@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - img
+    - generic:
+      - img
+    - generic [ref=e3]:
+      - region "Рекламна карусель" [ref=e5]:
+        - img "Рекламна карусель - 1" [ref=e8]
+        - generic [ref=e10]:
+          - heading "Рятуйте їжу" [level=1] [ref=e11]
+          - link "Переглянути заклади" [ref=e12] [cursor=pointer]:
+            - /url: /restaurants
+            - generic [ref=e13]: Переглянути заклади
+        - generic [ref=e14]:
+          - button "Go to slide 1" [ref=e15] [cursor=pointer]:
+            - generic [ref=e17]: 🍞
+          - button "Go to slide 2" [ref=e18] [cursor=pointer]:
+            - generic [ref=e20]: 💰
+          - button "Go to slide 3" [ref=e21] [cursor=pointer]:
+            - generic [ref=e23]: 🌍
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "Популярні заклади" [level=2] [ref=e29]: Популярні заклади
+          - link "Всі" [ref=e31] [cursor=pointer]:
+            - /url: /restaurants
+        - generic [ref=e32]:
+          - img [ref=e34]
+          - heading "Помилка" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Спробуйте інший запит
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "Заклади поблизу" [level=2] [ref=e41]: Заклади поблизу
+          - link "Всі" [ref=e43] [cursor=pointer]:
+            - /url: /restaurants
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - heading "Помилка" [level=3] [ref=e49]
+          - paragraph [ref=e50]: Спробуйте інший запит
+  - navigation [ref=e51]:
+    - link "Рекомендації" [ref=e52] [cursor=pointer]:
+      - /url: /
+      - img [ref=e54]
+      - generic [ref=e57]: Рекомендації
+    - link "Ресторани" [ref=e58] [cursor=pointer]:
+      - /url: /restaurants
+      - img [ref=e60]
+      - generic [ref=e63]: Ресторани
+    - link "Магазини" [ref=e64] [cursor=pointer]:
+      - /url: /stores
+      - img [ref=e66]
+      - generic [ref=e71]: Магазини
+    - link "Обране" [ref=e72] [cursor=pointer]:
+      - /url: /favorites
+      - img [ref=e74]
+      - generic [ref=e76]: Обране
+    - link "Кошик" [ref=e77] [cursor=pointer]:
+      - /url: /cart
+      - img [ref=e79]
+      - generic [ref=e83]: Кошик
+    - link "Профіль" [ref=e84] [cursor=pointer]:
+      - /url: /profile
+      - img [ref=e86]
+      - generic [ref=e89]: Профіль
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=e95] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e96]:
+      - img [ref=e97]
+    - generic [ref=e100]:
+      - button "Open issues overlay" [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]: "0"
+          - generic [ref=e104]: "1"
+        - generic [ref=e105]: Issue
+      - button "Collapse issues badge" [ref=e106]:
+        - img [ref=e107]
+  - alert [ref=e109]

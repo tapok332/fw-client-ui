@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e45]:
+    - link "Рекомендації" [ref=e46] [cursor=pointer]:
+      - /url: /
+      - img [ref=e48]
+      - generic [ref=e51]: Рекомендації
+    - link "Ресторани" [ref=e52] [cursor=pointer]:
+      - /url: /restaurants
+      - img [ref=e54]
+      - generic [ref=e57]: Ресторани
+    - link "Магазини" [ref=e58] [cursor=pointer]:
+      - /url: /stores
+      - img [ref=e60]
+      - generic [ref=e65]: Магазини
+    - link "Обране" [ref=e66] [cursor=pointer]:
+      - /url: /favorites
+      - img [ref=e68]
+      - generic [ref=e70]: Обране
+    - link "Кошик" [ref=e71] [cursor=pointer]:
+      - /url: /cart
+      - img [ref=e73]
+      - generic [ref=e77]: Кошик
+    - link "Профіль" [ref=e78] [cursor=pointer]:
+      - /url: /profile
+      - img [ref=e80]
+      - generic [ref=e83]: Профіль
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e85]

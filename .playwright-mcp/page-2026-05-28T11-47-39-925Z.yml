@@ -1,0 +1,71 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "FoodWise" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e8]: FoodWise
+      - button "Change language" [ref=e9] [cursor=pointer]:
+        - img
+    - generic [ref=e14]:
+      - img [ref=e17]
+      - generic [ref=e20]:
+        - heading "Увійти" [level=1] [ref=e21]
+        - paragraph [ref=e22]: Рятуйте їжу, економте гроші
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - text: Email
+          - generic [ref=e25]:
+            - textbox "Email" [ref=e26]:
+              - /placeholder: example@email.com
+            - img [ref=e27]
+        - generic [ref=e30]:
+          - text: Пароль
+          - generic [ref=e31]:
+            - textbox "Пароль" [ref=e32]:
+              - /placeholder: ••••••••
+            - button "Show password" [ref=e33] [cursor=pointer]:
+              - img
+        - generic [ref=e34]:
+          - button "Вхід..." [disabled]:
+            - img
+            - text: Вхід...
+      - generic [ref=e36]:
+        - separator [ref=e37]
+        - generic [ref=e38]: або
+        - separator [ref=e39]
+      - generic [ref=e40]:
+        - button "Google Увійти через Google" [disabled]:
+          - img "Google"
+          - text: Увійти через Google
+      - paragraph [ref=e42]:
+        - text: Немає облікового запису?
+        - link "Зареєструватися" [ref=e43] [cursor=pointer]:
+          - /url: /register
+  - navigation [ref=e44]:
+    - link "Рекомендації" [ref=e45] [cursor=pointer]:
+      - /url: /
+      - img [ref=e47]
+      - generic [ref=e50]: Рекомендації
+    - link "Ресторани" [ref=e51] [cursor=pointer]:
+      - /url: /restaurants
+      - img [ref=e53]
+      - generic [ref=e56]: Ресторани
+    - link "Магазини" [ref=e57] [cursor=pointer]:
+      - /url: /stores
+      - img [ref=e59]
+      - generic [ref=e64]: Магазини
+    - link "Обране" [ref=e65] [cursor=pointer]:
+      - /url: /favorites
+      - img [ref=e67]
+      - generic [ref=e69]: Обране
+    - link "Кошик" [ref=e70] [cursor=pointer]:
+      - /url: /cart
+      - img [ref=e72]
+      - generic [ref=e76]: Кошик
+    - link "Профіль" [ref=e77] [cursor=pointer]:
+      - /url: /profile
+      - img [ref=e79]
+      - generic [ref=e82]: Профіль
+  - region "Notifications (F8)":
+    - list

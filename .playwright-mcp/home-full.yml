@@ -1,0 +1,221 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic:
+      - img
+    - generic:
+      - img
+    - generic [ref=e26]:
+      - region "Рекламна карусель" [ref=e28]:
+        - img "Рекламна карусель - 2" [ref=e107]
+        - generic [ref=e33]:
+          - heading "Рятуйте їжу" [level=1] [ref=e34]
+          - link "Переглянути заклади" [ref=e35] [cursor=pointer]:
+            - /url: /category/restaurant
+            - generic [ref=e36]: Переглянути заклади
+        - generic [ref=e37]:
+          - button "Go to slide 1" [ref=e38] [cursor=pointer]
+          - button "Go to slide 2" [ref=e40] [cursor=pointer]
+          - button "Go to slide 3" [ref=e42] [cursor=pointer]
+      - generic [ref=e49]:
+        - button "pizza" [ref=e109] [cursor=pointer]:
+          - generic [ref=e110]:
+            - img
+          - generic [ref=e111]: pizza
+        - button "sushi" [ref=e112] [cursor=pointer]:
+          - generic [ref=e113]:
+            - img
+          - generic [ref=e114]: sushi
+        - button "Пекарня" [ref=e115] [cursor=pointer]:
+          - generic [ref=e116]:
+            - img
+          - generic [ref=e117]: Пекарня
+        - button "asian" [ref=e118] [cursor=pointer]:
+          - generic [ref=e119]:
+            - img
+          - generic [ref=e120]: asian
+        - button "burgers" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img
+          - generic [ref=e123]: burgers
+        - button "coffee" [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]:
+            - img
+          - generic [ref=e126]: coffee
+        - button "dessert" [ref=e127] [cursor=pointer]:
+          - generic [ref=e128]:
+            - img
+          - generic [ref=e129]: dessert
+        - button "vegan" [ref=e130] [cursor=pointer]:
+          - generic [ref=e131]:
+            - img
+          - generic [ref=e132]: vegan
+        - button "pastry" [ref=e133] [cursor=pointer]:
+          - generic [ref=e134]:
+            - img
+          - generic [ref=e135]: pastry
+        - button "greek" [ref=e136] [cursor=pointer]:
+          - generic [ref=e137]:
+            - img
+          - generic [ref=e138]: greek
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "Популярні заклади" [level=2] [ref=e58]: Популярні заклади
+          - link "Всі" [ref=e60] [cursor=pointer]:
+            - /url: /category/restaurant
+        - list "Популярні заклади" [ref=e139]:
+          - link "Sweet Crumbs 4.2 Sweet Crumbs Khreshchatyk 0, Kyiv" [ref=e141] [cursor=pointer]:
+            - /url: /stores/2d95dd07-71a0-401c-9817-44c332c98659
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - img "Sweet Crumbs" [ref=e144]
+                - generic [ref=e145]:
+                  - img [ref=e146]
+                  - generic [ref=e148]: "4.2"
+              - generic [ref=e149]:
+                - heading "Sweet Crumbs" [level=3] [ref=e150]
+                - generic [ref=e151]:
+                  - img [ref=e152]
+                  - paragraph [ref=e155]: Khreshchatyk 0, Kyiv
+          - link "Tokyo Roll 4.8 Tokyo Roll Khreshchatyk 1, Kyiv" [ref=e157] [cursor=pointer]:
+            - /url: /stores/b50851c5-9347-47fe-8bae-91aa7468c3c5
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - img "Tokyo Roll" [ref=e160]
+                - generic [ref=e161]:
+                  - img [ref=e162]
+                  - generic [ref=e164]: "4.8"
+              - generic [ref=e165]:
+                - heading "Tokyo Roll" [level=3] [ref=e166]
+                - generic [ref=e167]:
+                  - img [ref=e168]
+                  - paragraph [ref=e171]: Khreshchatyk 1, Kyiv
+          - link "Mama Mia Pizzeria 4.6 Mama Mia Pizzeria Khreshchatyk 2, Kyiv" [ref=e173] [cursor=pointer]:
+            - /url: /stores/c29bc866-626e-4a16-97f2-0c7b28186d61
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - img "Mama Mia Pizzeria" [ref=e176]
+                - generic [ref=e177]:
+                  - img [ref=e178]
+                  - generic [ref=e180]: "4.6"
+              - generic [ref=e181]:
+                - heading "Mama Mia Pizzeria" [level=3] [ref=e182]
+                - generic [ref=e183]:
+                  - img [ref=e184]
+                  - paragraph [ref=e187]: Khreshchatyk 2, Kyiv
+          - link "Burger Yard 4.0 Burger Yard Khreshchatyk 3, Kyiv" [ref=e189] [cursor=pointer]:
+            - /url: /stores/2a3d00ef-5ee9-4e8b-afcc-5e7b1db01f01
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - img "Burger Yard" [ref=e192]
+                - generic [ref=e193]:
+                  - img [ref=e194]
+                  - generic [ref=e196]: "4.0"
+              - generic [ref=e197]:
+                - heading "Burger Yard" [level=3] [ref=e198]
+                - generic [ref=e199]:
+                  - img [ref=e200]
+                  - paragraph [ref=e203]: Khreshchatyk 3, Kyiv
+          - link "Brew House 4.5 Brew House Khreshchatyk 4, Kyiv" [ref=e205] [cursor=pointer]:
+            - /url: /stores/7887f140-2cf8-495f-b0df-a6caa5cff72f
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - img "Brew House" [ref=e208]
+                - generic [ref=e209]:
+                  - img [ref=e210]
+                  - generic [ref=e212]: "4.5"
+              - generic [ref=e213]:
+                - heading "Brew House" [level=3] [ref=e214]
+                - generic [ref=e215]:
+                  - img [ref=e216]
+                  - paragraph [ref=e219]: Khreshchatyk 4, Kyiv
+          - link "Wok and Roll 4.7 Wok and Roll Khreshchatyk 5, Kyiv" [ref=e221] [cursor=pointer]:
+            - /url: /stores/0c030cb1-e96d-418d-a26f-b4eca76564d5
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - img "Wok and Roll" [ref=e224]
+                - generic [ref=e225]:
+                  - img [ref=e226]
+                  - generic [ref=e228]: "4.7"
+              - generic [ref=e229]:
+                - heading "Wok and Roll" [level=3] [ref=e230]
+                - generic [ref=e231]:
+                  - img [ref=e232]
+                  - paragraph [ref=e235]: Khreshchatyk 5, Kyiv
+          - link "Sugar Cloud 3.9 Sugar Cloud Khreshchatyk 6, Kyiv" [ref=e237] [cursor=pointer]:
+            - /url: /stores/0e378e73-0918-42ee-aecf-c658e1f406d2
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - img "Sugar Cloud" [ref=e240]
+                - generic [ref=e241]:
+                  - img [ref=e242]
+                  - generic [ref=e244]: "3.9"
+              - generic [ref=e245]:
+                - heading "Sugar Cloud" [level=3] [ref=e246]
+                - generic [ref=e247]:
+                  - img [ref=e248]
+                  - paragraph [ref=e251]: Khreshchatyk 6, Kyiv
+          - link "Green Plate 4.3 Green Plate Khreshchatyk 7, Kyiv" [ref=e253] [cursor=pointer]:
+            - /url: /stores/cbb76aa9-79b8-4107-bf84-9068d2b03404
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - img "Green Plate" [ref=e256]
+                - generic [ref=e257]:
+                  - img [ref=e258]
+                  - generic [ref=e260]: "4.3"
+              - generic [ref=e261]:
+                - heading "Green Plate" [level=3] [ref=e262]
+                - generic [ref=e263]:
+                  - img [ref=e264]
+                  - paragraph [ref=e267]: Khreshchatyk 7, Kyiv
+          - link "Maison Patisserie 5.0 Maison Patisserie Khreshchatyk 8, Kyiv" [ref=e269] [cursor=pointer]:
+            - /url: /stores/c8dfcee6-67fa-4a00-bf9a-5689b5485616
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - img "Maison Patisserie" [ref=e272]
+                - generic [ref=e273]:
+                  - img [ref=e274]
+                  - generic [ref=e276]: "5.0"
+              - generic [ref=e277]:
+                - heading "Maison Patisserie" [level=3] [ref=e278]
+                - generic [ref=e279]:
+                  - img [ref=e280]
+                  - paragraph [ref=e283]: Khreshchatyk 8, Kyiv
+          - link "Olive Grove 3.8 Olive Grove Khreshchatyk 9, Kyiv" [ref=e285] [cursor=pointer]:
+            - /url: /stores/2b56afaf-17f9-43e5-8268-49813c3c6a09
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - img "Olive Grove" [ref=e288]
+                - generic [ref=e289]:
+                  - img [ref=e290]
+                  - generic [ref=e292]: "3.8"
+              - generic [ref=e293]:
+                - heading "Olive Grove" [level=3] [ref=e294]
+                - generic [ref=e295]:
+                  - img [ref=e296]
+                  - paragraph [ref=e299]: Khreshchatyk 9, Kyiv
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - heading "Заклади поблизу" [level=2] [ref=e82]: Заклади поблизу
+          - link "Всі" [ref=e84] [cursor=pointer]:
+            - /url: /category/restaurant
+        - generic [ref=e300]:
+          - img [ref=e302]
+          - heading "Немає закладів поблизу" [level=3] [ref=e305]
+          - paragraph [ref=e306]: Спробуйте інший запит
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e104]

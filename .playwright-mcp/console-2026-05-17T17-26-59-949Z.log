@@ -1,0 +1,37 @@
+[     667ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[    1023ms] [ERROR] Access to fetch at 'http://localhost:8080/categories/pizza' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1023ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/categories/pizza:0
+[    1023ms] [WARNING] [FoodWise] API unavailable: /categories/pizza @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1024ms] [ERROR] Access to fetch at 'http://localhost:8080/home/categories' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1024ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/categories:0
+[    1024ms] [WARNING] [FoodWise] API unavailable: /home/categories @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1024ms] [ERROR] Access to fetch at 'http://localhost:8080/stores' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1024ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores:0
+[    1024ms] [WARNING] [FoodWise] API unavailable: /stores @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1024ms] [ERROR] Access to fetch at 'http://localhost:8080/home/boxes' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1024ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/boxes:0
+[    1024ms] [WARNING] [FoodWise] API unavailable: /home/boxes @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1024ms] [ERROR] Access to fetch at 'http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1024ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20:0
+[    1024ms] [WARNING] [FoodWise] API unavailable: /stores?categorySlug=pizza&sort=rating&page=0&limit=20 @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1024ms] [ERROR] Access to fetch at 'http://localhost:8080/home/hero-images' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1024ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/hero-images:0
+[    1024ms] [WARNING] [FoodWise] API unavailable: /home/hero-images @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1034ms] [ERROR] Access to fetch at 'http://localhost:8080/home/category-icons' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1034ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/category-icons:0
+[    1034ms] [WARNING] [FoodWise] API unavailable: /home/category-icons @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1343ms] [ERROR] Access to fetch at 'http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1343ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20:0
+[    1343ms] [WARNING] [FoodWise] API unavailable: /stores?categorySlug=pizza&sort=rating&page=0&limit=20 @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:211
+[    1661ms] [ERROR] Access to fetch at 'http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1661ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20:0
+[    1979ms] [ERROR] Access to fetch at 'http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20' from origin 'http://localhost:9003' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[    1979ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores?categorySlug=pizza&sort=rating&page=0&limit=20:0
+[    2289ms] [WARNING] Request to /stores?categorySlug=pizza&sort=rating&page=0&limit=20 has failed multiple times. Please try again later. @ webpack-internal:///(app-pages-browser)/./src/lib/api.ts:129
+[    2289ms] [ERROR] Failed to apply filters: Error: Too many failed attempts. Please reload the page to try again.
+    at fetchAPI (webpack-internal:///(app-pages-browser)/./src/lib/api.ts:131:19)
+    at Object.search (webpack-internal:///(app-pages-browser)/./src/lib/api.ts:272:20)
+    at CategoryPage.useCallback[applyFilters] (webpack-internal:///(app-pages-browser)/./src/app/category/[slug]/page.tsx:123:87)
+    at CategoryPage.useEffect.debounceTimer (webpack-internal:///(app-pages-browser)/./src/app/category/[slug]/page.tsx:240:25) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[   31957ms] [ERROR] Access to fetch at 'http://localhost:8080/stores?categorySlug=pizza&limit=3' from origin 'http://localhost:9003' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9003/category/pizza:0
+[   31957ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores?categorySlug=pizza&limit=3:0

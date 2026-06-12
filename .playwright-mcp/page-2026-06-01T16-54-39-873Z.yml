@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link "Back" [ref=e27] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e28]
+      - heading "Адреси" [level=1] [ref=e30]
+    - generic [ref=e154]:
+      - generic [ref=e156]:
+        - img [ref=e157]
+        - generic [ref=e160]: Ваші адреси
+      - generic [ref=e161]:
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - paragraph [ref=e165]: Дім
+            - paragraph [ref=e166]: вул. Хрещатик, 1, Київ, Україна, 01001898989898998988
+            - generic [ref=e168]: HOME
+          - generic [ref=e169]:
+            - button "Зробити основною" [ref=e170] [cursor=pointer]
+            - button [ref=e171] [cursor=pointer]:
+              - img
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - paragraph [ref=e175]: Робота
+            - paragraph [ref=e176]: вул. Сагайдачного, 12, Львів, Україна, 79000
+            - generic [ref=e178]: HOME
+          - generic [ref=e179]:
+            - button "Зробити основною" [ref=e180] [cursor=pointer]
+            - button [ref=e181] [cursor=pointer]:
+              - img
+        - button "Додати нову адресу" [ref=e182] [cursor=pointer]:
+          - img
+          - generic [ref=e183]: Додати нову адресу
+    - generic [ref=e42]:
+      - heading "Інформація про адреси" [level=2] [ref=e43]
+      - paragraph [ref=e44]: • Основна адреса використовується при оформленні замовлення
+      - paragraph [ref=e45]: • Додавайте кілька адрес для різних цілей
+      - paragraph [ref=e46]: • Вказуйте точну інформацію для уникнення проблем з доставкою
+  - region "Notifications (F8)":
+    - list [ref=e103]:
+      - status [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]: Успішно
+          - generic [ref=e188]: Адресу успішно додано
+        - button [ref=e189] [cursor=pointer]:
+          - img [ref=e190]
+  - alert [ref=e47]

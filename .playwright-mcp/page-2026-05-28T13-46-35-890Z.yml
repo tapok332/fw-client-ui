@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - button "Назад" [ref=e4] [cursor=pointer]:
+        - img
+      - heading "Історія замовлень" [level=1] [ref=e5]
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - heading "У вас ще немає замовлень" [level=3] [ref=e10]
+      - paragraph [ref=e11]: Почніть досліджувати доступні пропозиції
+      - button "Переглянути зараз" [ref=e12] [cursor=pointer]
+  - navigation [ref=e13]:
+    - link "Рекомендації" [ref=e14] [cursor=pointer]:
+      - /url: /
+      - img [ref=e16]
+      - generic [ref=e19]: Рекомендації
+    - link "Ресторани" [ref=e20] [cursor=pointer]:
+      - /url: /restaurants
+      - img [ref=e22]
+      - generic [ref=e25]: Ресторани
+    - link "Магазини" [ref=e26] [cursor=pointer]:
+      - /url: /stores
+      - img [ref=e28]
+      - generic [ref=e33]: Магазини
+    - link "Обране" [ref=e34] [cursor=pointer]:
+      - /url: /favorites
+      - img [ref=e36]
+      - generic [ref=e38]: Обране
+    - link "Кошик" [ref=e39] [cursor=pointer]:
+      - /url: /cart
+      - img [ref=e41]
+      - generic [ref=e45]: Кошик
+    - link "Профіль" [ref=e46] [cursor=pointer]:
+      - /url: /profile
+      - img [ref=e48]
+      - generic [ref=e51]: Профіль
+  - region "Notifications (F8)":
+    - list [ref=e54]:
+      - status [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: Помилка
+          - generic [ref=e58]: Помилка завантаження замовлень
+        - button [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+  - alert [ref=e64]
+  - status [ref=e65]: Notification ПомилкаПомилка завантаження замовлень

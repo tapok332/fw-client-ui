@@ -1,0 +1,3 @@
+[    1246ms] [WARNING] Cart data in localStorage is not an array, resetting: {items: Array(0), totalPrice: 0} @ http://localhost:3000/_next/static/chunks/app/layout-3e533eac4709b422.js:0
+[  167282ms] [WARNING] Geolocation permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information. @ http://localhost:3000/restaurants:0
+[  167283ms] [ERROR] Error getting geolocation: GeolocationPositionError @ http://localhost:3000/_next/static/chunks/app/layout-3e533eac4709b422.js:0

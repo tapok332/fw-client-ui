@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - button [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+      - button [ref=e32] [cursor=pointer]:
+        - img [ref=e33]
+    - generic [ref=e35]:
+      - generic [ref=e39]:
+        - heading "Фільтри" [level=3] [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: Мінімальний рейтинг
+              - generic [ref=e46]: Всі
+            - slider [ref=e50]
+            - generic [ref=e51]:
+              - generic [ref=e52]: "0"
+              - generic [ref=e53]: "5"
+          - generic [ref=e54]:
+            - generic [ref=e55]: Відкрито зараз
+            - switch "Відкрито зараз" [ref=e56] [cursor=pointer]
+          - generic [ref=e57]:
+            - generic [ref=e58]: Рівень цін
+            - generic [ref=e59]:
+              - button "₴" [ref=e60] [cursor=pointer]
+              - button "₴₴" [ref=e61] [cursor=pointer]
+              - button "₴₴₴" [ref=e62] [cursor=pointer]
+              - button "₴₴₴₴" [ref=e63] [cursor=pointer]
+          - generic [ref=e64]:
+            - generic [ref=e65]: Сортувати за
+            - combobox [ref=e67] [cursor=pointer]:
+              - generic: За рейтингом
+              - img [ref=e68]
+          - button "Скинути фільтри" [ref=e70] [cursor=pointer]
+      - generic [ref=e73]:
+        - heading "Товари категорії" [level=2] [ref=e75]
+        - generic [ref=e126]:
+          - img [ref=e128]
+          - heading "Нічого не знайдено" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Спробуйте інший запит
+          - button "Скинути фільтри" [ref=e134] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e125]

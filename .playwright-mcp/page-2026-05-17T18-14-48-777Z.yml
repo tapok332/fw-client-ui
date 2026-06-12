@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic:
+      - img
+    - generic:
+      - img
+    - generic [ref=e26]:
+      - region "Рекламна карусель" [ref=e28]:
+        - img "Рекламна карусель - 1" [ref=e31]
+        - generic [ref=e33]:
+          - heading "Рятуйте їжу" [level=1] [ref=e34]
+          - link "Переглянути заклади" [ref=e35] [cursor=pointer]:
+            - /url: /restaurants
+            - generic [ref=e36]: Переглянути заклади
+        - generic [ref=e37]:
+          - button "Go to slide 1" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: 🍞
+          - button "Go to slide 2" [ref=e41] [cursor=pointer]:
+            - generic [ref=e43]: 💰
+          - button "Go to slide 3" [ref=e44] [cursor=pointer]:
+            - generic [ref=e46]: 🌍
+      - generic [ref=e60]:
+        - heading "Популярні заклади" [level=2] [ref=e61]: Популярні заклади
+        - link "Всі" [ref=e63] [cursor=pointer]:
+          - /url: /restaurants
+      - generic [ref=e84]:
+        - heading "Заклади поблизу" [level=2] [ref=e85]: Заклади поблизу
+        - link "Всі" [ref=e87] [cursor=pointer]:
+          - /url: /restaurants
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e107]

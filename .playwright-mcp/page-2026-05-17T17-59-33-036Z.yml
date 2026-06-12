@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e27]:
+      - img [ref=e28]
+      - textbox "Пошук" [ref=e31]:
+        - /placeholder: Пошук ресторану або локації
+    - button "Всі" [pressed] [ref=e39] [cursor=pointer]:
+      - generic [ref=e40]: Всі
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - heading "Фільтри" [level=3] [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: Мінімальний рейтинг
+              - generic [ref=e49]: Всі
+            - slider [ref=e53]
+            - generic [ref=e54]:
+              - generic [ref=e55]: "0"
+              - generic [ref=e56]: "5"
+          - generic [ref=e57]:
+            - generic [ref=e58]: Відкрити зараз
+            - switch "Відкрити зараз" [ref=e59] [cursor=pointer]
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - generic [ref=e62]: Максимальна відстань
+              - generic [ref=e63]: 10 км
+            - slider [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e70]: 0 км
+              - generic [ref=e71]: 10 км
+          - button "Скинути фільтри" [ref=e72] [cursor=pointer]
+      - generic [ref=e74]:
+        - button "Показати карту" [ref=e76] [cursor=pointer]:
+          - img
+          - text: Показати карту
+        - generic [ref=e78]:
+          - heading "Популярні ресторани" [level=2] [ref=e79]
+          - link "Всі" [ref=e80] [cursor=pointer]:
+            - /url: "#all-restaurants"
+        - generic [ref=e107]:
+          - heading "Поблизу вас" [level=2] [ref=e108]
+          - link "Всі" [ref=e109] [cursor=pointer]:
+            - /url: "#all-restaurants"
+        - generic [ref=e136]:
+          - heading "Рекомендовані" [level=2] [ref=e137]
+          - link "Всі" [ref=e138] [cursor=pointer]:
+            - /url: "#all-restaurants"
+        - heading "Всі ресторани" [level=2] [ref=e166]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e216]

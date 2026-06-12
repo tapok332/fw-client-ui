@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link "Кошик" [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link "Профіль" [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link "Back" [ref=e27] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e28]
+      - heading "Адреси" [level=1] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - img [ref=e34]
+        - generic [ref=e37]: Ваші адреси
+      - generic [ref=e38]:
+        - img [ref=e40]
+        - button "Додати нову адресу" [disabled]:
+          - img
+          - generic: Додати нову адресу
+    - generic [ref=e42]:
+      - heading "Інформація про адреси" [level=2] [ref=e43]
+      - paragraph [ref=e44]: • Основна адреса використовується при оформленні замовлення
+      - paragraph [ref=e45]: • Додавайте кілька адрес для різних цілей
+      - paragraph [ref=e46]: • Вказуйте точну інформацію для уникнення проблем з доставкою
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e47]

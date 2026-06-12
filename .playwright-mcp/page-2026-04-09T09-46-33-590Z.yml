@@ -1,0 +1,87 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link "FoodWise" [ref=e27] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+        - generic [ref=e31]: FoodWise
+      - button [ref=e32] [cursor=pointer]:
+        - img
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - img [ref=e36]
+        - img [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e42]:
+            - img [ref=e44]
+            - generic [ref=e47]: FoodWise
+          - heading "Рятуйте їжу, економте гроші" [level=2] [ref=e48]:
+            - text: Рятуйте їжу,
+            - text: економте гроші
+          - paragraph [ref=e49]: Приєднуйтесь до спільноти свідомих споживачів, які рятують їжу від утилізації та роблять планету кращою.
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic [ref=e57]:
+                - paragraph [ref=e58]: 10,000+
+                - paragraph [ref=e59]: врятованих порцій
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - generic [ref=e64]:
+                - paragraph [ref=e65]: 500+
+                - paragraph [ref=e66]: партнерів
+            - generic [ref=e67]:
+              - img [ref=e69]
+              - generic [ref=e76]:
+                - paragraph [ref=e77]: 2,000 кг
+                - paragraph [ref=e78]: їжі збережено
+      - generic [ref=e81]:
+        - img [ref=e84]
+        - generic [ref=e87]:
+          - heading "Увійти" [level=1] [ref=e88]
+          - paragraph [ref=e89]: Рятуйте їжу, економте гроші
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - text: Email
+            - generic [ref=e92]:
+              - textbox "Email" [ref=e93]:
+                - /placeholder: example@email.com
+              - img [ref=e94]
+          - generic [ref=e97]:
+            - text: Пароль
+            - generic [ref=e98]:
+              - textbox "Пароль" [ref=e99]:
+                - /placeholder: ••••••••
+              - button [ref=e100] [cursor=pointer]:
+                - img
+          - generic [ref=e101]:
+            - button "Вхід..." [disabled]:
+              - img
+              - text: Вхід...
+        - generic [ref=e103]:
+          - separator [ref=e104]
+          - generic [ref=e105]: або
+          - separator [ref=e106]
+        - button "Google Увійти через Google" [ref=e108] [cursor=pointer]:
+          - img "Google" [ref=e109]
+          - text: Увійти через Google
+        - paragraph [ref=e111]:
+          - text: Немає облікового запису?
+          - link "Зареєструватися" [ref=e112] [cursor=pointer]:
+            - /url: /register
+  - region "Notifications (F8)":
+    - list

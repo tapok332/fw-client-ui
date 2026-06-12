@@ -1,0 +1,1 @@
+[     186ms] [WARNING] Cart data in localStorage is not an array, resetting: {items: Array(0), totalPrice: 0} @ http://localhost:3000/_next/static/chunks/app/layout-a2f5bab73735b601.js:0

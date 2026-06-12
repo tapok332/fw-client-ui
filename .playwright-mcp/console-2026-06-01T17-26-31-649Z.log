@@ -1,0 +1,25 @@
+[     234ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/orders?page=0&size=20:0
+[     234ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/cart:0
+[     321ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/auth/refresh-token:0
+[     322ms] [ERROR] API request failed: Error: unauthorizedError
+    at u (http://localhost:3000/_next/static/chunks/app/error-45589b73b5cb77dd.js:1:9166)
+    at async http://localhost:3000/_next/static/chunks/app/error-45589b73b5cb77dd.js:1:10686 @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0
+[     322ms] [ERROR] Token refresh failed: Error: unauthorizedError
+    at u (http://localhost:3000/_next/static/chunks/app/error-45589b73b5cb77dd.js:1:9166)
+    at async http://localhost:3000/_next/static/chunks/app/error-45589b73b5cb77dd.js:1:10686 @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0
+[     322ms] [WARNING] [FoodWise] API error: /orders?page=0&size=20 API error: 401 @ http://localhost:3000/_next/static/chunks/960-cfaa52abc4d002b9.js:0
+[     322ms] [ERROR] API request failed: Error: Authentication expired. Please login again.
+    at Object.request (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:3492)
+    at async Object.get (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:4191) @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0
+[    1332ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/cart:0
+[    1332ms] [ERROR] API request failed: Error: Authentication expired. Please login again.
+    at Object.request (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:3492)
+    at async Object.get (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:4191) @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0
+[    3347ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/cart:0
+[    3347ms] [ERROR] API request failed: Error: Authentication expired. Please login again.
+    at Object.request (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:3492)
+    at async Object.get (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:4191) @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0
+[    7369ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/cart:0
+[    7369ms] [ERROR] API request failed: Error: Authentication expired. Please login again.
+    at Object.request (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:3492)
+    at async Object.get (http://localhost:3000/_next/static/chunks/1341-110d0869311fae98.js:1:4191) @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0

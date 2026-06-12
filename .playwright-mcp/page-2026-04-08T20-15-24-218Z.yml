@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "FoodWise" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]: FoodWise
+    - generic [ref=e10]:
+      - button "Search" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e16]
+      - link [ref=e20] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e22]
+  - generic [ref=e26]:
+    - region "Рекламна карусель" [ref=e28]:
+      - img "Рекламна карусель" [ref=e31]
+      - generic [ref=e33]:
+        - heading "Рятуйте їжу" [level=1] [ref=e34]
+        - link "Переглянути заклади" [ref=e35] [cursor=pointer]:
+          - /url: /category/restaurant
+          - generic [ref=e36]: Переглянути заклади
+      - generic [ref=e37]:
+        - button "Go to slide 1" [ref=e38] [cursor=pointer]
+        - button "Go to slide 2" [ref=e39] [cursor=pointer]
+        - button "Go to slide 3" [ref=e40] [cursor=pointer]
+    - generic [ref=e54]:
+      - heading "Популярні заклади" [level=2] [ref=e55]: Популярні заклади
+      - link "Всі" [ref=e57] [cursor=pointer]:
+        - /url: /category/restaurant
+    - generic [ref=e78]:
+      - heading "Заклади поблизу" [level=2] [ref=e79]: Заклади поблизу
+      - link "Всі" [ref=e81] [cursor=pointer]:
+        - /url: /category/restaurant
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=e106] [cursor=pointer]:
+    - img [ref=e107]
+  - alert [ref=e110]

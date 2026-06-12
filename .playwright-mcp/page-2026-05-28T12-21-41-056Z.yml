@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "FoodWise" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e8]: FoodWise
+      - button "Change language" [ref=e9] [cursor=pointer]:
+        - img
+    - generic [ref=e14]:
+      - img [ref=e17]
+      - generic [ref=e20]:
+        - heading "Увійти" [level=1] [ref=e21]
+        - paragraph [ref=e22]: Рятуйте їжу, економте гроші
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - text: Email
+          - generic [ref=e25]:
+            - textbox "Email" [ref=e26]:
+              - /placeholder: example@email.com
+            - img [ref=e27]
+        - generic [ref=e30]:
+          - text: Пароль
+          - generic [ref=e31]:
+            - textbox "Пароль" [ref=e32]:
+              - /placeholder: ••••••••
+            - button "Show password" [ref=e33] [cursor=pointer]:
+              - img
+        - button "Увійти" [ref=e35] [cursor=pointer]
+      - generic [ref=e37]:
+        - separator [ref=e38]
+        - generic [ref=e39]: або
+        - separator [ref=e40]
+      - button "Google Увійти через Google" [ref=e42] [cursor=pointer]:
+        - img "Google" [ref=e43]
+        - text: Увійти через Google
+      - paragraph [ref=e45]:
+        - text: Немає облікового запису?
+        - link "Зареєструватися" [ref=e46] [cursor=pointer]:
+          - /url: /register
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e48]

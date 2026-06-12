@@ -1,0 +1,9 @@
+[     223ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ http://localhost:8080/auth/refresh-token:0
+[     223ms] [ERROR] API request failed: Error: API error: 429
+    at u (http://localhost:3000/_next/static/chunks/1341-e94b7fb15c3df961.js:1:9811)
+    at async T (http://localhost:3000/_next/static/chunks/1341-e94b7fb15c3df961.js:1:5635)
+    at async http://localhost:3000/_next/static/chunks/1341-e94b7fb15c3df961.js:1:5948 @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0
+[     223ms] [ERROR] Failed to refresh token: Error: API error: 429
+    at u (http://localhost:3000/_next/static/chunks/1341-e94b7fb15c3df961.js:1:9811)
+    at async T (http://localhost:3000/_next/static/chunks/1341-e94b7fb15c3df961.js:1:5635)
+    at async http://localhost:3000/_next/static/chunks/1341-e94b7fb15c3df961.js:1:5948 @ http://localhost:3000/_next/static/chunks/app/layout-76cc468eb3ff9539.js:0

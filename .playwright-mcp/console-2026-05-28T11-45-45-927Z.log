@@ -1,0 +1,15 @@
+[     285ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:9002/login:0
+[     308ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     368ms] [ERROR] The result of getServerSnapshot should be cached to avoid an infinite loop @ http://localhost:9002/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[     436ms] [ERROR] Access to fetch at 'http://localhost:8080/home/category-icons' from origin 'http://localhost:9002' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9002/login:0
+[     436ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/category-icons:0
+[     436ms] [WARNING] [FoodWise] API unavailable: /home/category-icons @ http://localhost:9002/_next/static/chunks/src_d9e59009._.js:4007
+[     436ms] [ERROR] Access to fetch at 'http://localhost:8080/home/hero-images' from origin 'http://localhost:9002' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9002/login:0
+[     436ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/hero-images:0
+[     436ms] [WARNING] [FoodWise] API unavailable: /home/hero-images @ http://localhost:9002/_next/static/chunks/src_d9e59009._.js:4007
+[     436ms] [ERROR] Access to fetch at 'http://localhost:8080/stores' from origin 'http://localhost:9002' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9002/login:0
+[     436ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/stores:0
+[     436ms] [WARNING] [FoodWise] API unavailable: /stores @ http://localhost:9002/_next/static/chunks/src_d9e59009._.js:4007
+[     437ms] [ERROR] Access to fetch at 'http://localhost:8080/home/boxes' from origin 'http://localhost:9002' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:9002/login:0
+[     437ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8080/home/boxes:0
+[     437ms] [WARNING] [FoodWise] API unavailable: /home/boxes @ http://localhost:9002/_next/static/chunks/src_d9e59009._.js:4007

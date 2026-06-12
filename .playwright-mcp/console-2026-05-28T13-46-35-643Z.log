@@ -1,0 +1,3 @@
+[     203ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8080/orders?page=0&size=10:0
+[     203ms] [WARNING] [FoodWise] API error: /orders?page=0&size=10 API error: 401 @ http://localhost:3000/_next/static/chunks/960-e55c2633ac8cf6e3.js:0
+[     420ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0

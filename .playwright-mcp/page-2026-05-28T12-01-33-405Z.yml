@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - img
+    - generic:
+      - img
+    - generic [ref=e3]:
+      - region "Рекламна карусель" [ref=e5]:
+        - img "Рекламна карусель - 1" [ref=e8]
+        - generic [ref=e10]:
+          - heading "Рятуйте їжу" [level=1] [ref=e11]
+          - link "Переглянути заклади" [ref=e12] [cursor=pointer]:
+            - /url: /restaurants
+            - generic [ref=e13]: Переглянути заклади
+        - generic [ref=e14]:
+          - button "Go to slide 1" [ref=e15] [cursor=pointer]:
+            - generic [ref=e17]: 🍞
+          - button "Go to slide 2" [ref=e18] [cursor=pointer]:
+            - generic [ref=e20]: 💰
+          - button "Go to slide 3" [ref=e21] [cursor=pointer]:
+            - generic [ref=e23]: 🌍
+      - generic [ref=e34]:
+        - heading "Популярні заклади" [level=2] [ref=e35]: Популярні заклади
+        - link "Всі" [ref=e37] [cursor=pointer]:
+          - /url: /restaurants
+      - generic [ref=e58]:
+        - heading "Заклади поблизу" [level=2] [ref=e59]: Заклади поблизу
+        - link "Всі" [ref=e61] [cursor=pointer]:
+          - /url: /restaurants
+  - navigation [ref=e81]:
+    - link "Рекомендації" [ref=e82] [cursor=pointer]:
+      - /url: /
+      - img [ref=e84]
+      - generic [ref=e87]: Рекомендації
+    - link "Ресторани" [ref=e88] [cursor=pointer]:
+      - /url: /restaurants
+      - img [ref=e90]
+      - generic [ref=e93]: Ресторани
+    - link "Магазини" [ref=e94] [cursor=pointer]:
+      - /url: /stores
+      - img [ref=e96]
+      - generic [ref=e101]: Магазини
+    - link "Обране" [ref=e102] [cursor=pointer]:
+      - /url: /favorites
+      - img [ref=e104]
+      - generic [ref=e106]: Обране
+    - link "Кошик" [ref=e107] [cursor=pointer]:
+      - /url: /cart
+      - img [ref=e109]
+      - generic [ref=e113]: Кошик
+    - link "Профіль" [ref=e114] [cursor=pointer]:
+      - /url: /profile
+      - img [ref=e116]
+      - generic [ref=e119]: Профіль
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e121]
