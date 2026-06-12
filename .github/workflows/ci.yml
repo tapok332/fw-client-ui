@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Type check
-        run: npm run typecheck
-
       - name: Lint
         run: npm run lint
 
@@ -31,3 +28,9 @@ jobs:
 
       - name: Production build
         run: npm run build
+
+      # After the build: next build generates next-env.d.ts and
+      # .next/types/routes.d.ts, which tsc needs to resolve static-asset
+      # imports and typed routes. Running it earlier fails with TS2307.
+      - name: Type check
+        run: npm run typecheck
