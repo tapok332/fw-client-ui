@@ -101,6 +101,42 @@ export interface StoresSearchResult {
     page: number;
 }
 
+// HTTP QUERY body for /stores — mirrors fw-store-service StoreSearchQuery.
+// The geo filter travels as a nested object instead of the flat
+// ?latitude=..&longitude=..&maxDistance=.. tail a query string forces.
+function buildStoresQueryBody(params: StoreSearchParams): Record<string, unknown> {
+    const within = params.latitude !== undefined && params.longitude !== undefined
+        ? { lat: params.latitude, lng: params.longitude, radiusKm: params.maxDistance }
+        : undefined;
+    return {
+        search: params.search,
+        type: params.type,
+        group: params.group,
+        categoryId: params.categoryId,
+        categorySlug: params.categorySlug,
+        minRating: params.minRating,
+        priceLevels: params.priceLevel,
+        openNow: params.openNow,
+        within,
+        sort: params.sort,
+        page: params.page,
+        size: params.limit,
+    };
+}
+
+// Shared page → StoresSearchResult mapping for both the GET and the QUERY variant.
+const toStoresSearchResult = (data?: {
+    content?: Store[];
+    totalElements?: number;
+    totalPages?: number;
+    number?: number;
+}): StoresSearchResult => ({
+    items: (data?.content ?? []).map(mapStoreImageFields) as Store[],
+    totalElements: data?.totalElements ?? 0,
+    totalPages: data?.totalPages ?? 0,
+    page: data?.number ?? 0,
+});
+
 // Backend SurpriseBoxDto: title/imageUrl/discountPercentage/location.{lat,lng}/store.{storeId,name}.
 // Frontend SurpriseBox: name/image/discount/location.{latitude,longitude}/storeId/storeName.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -400,18 +436,22 @@ export const api = {
                 totalElements: number;
                 empty: boolean;
                 number: number;
-            }>>(url).then(response => {
-                const data = response.data;
-                if (!data?.content) {
-                    return { items: [], totalElements: 0, totalPages: 0, page: 0 };
-                }
-                return {
-                    items: data.content.map(mapStoreImageFields) as Store[],
-                    totalElements: data.totalElements ?? 0,
-                    totalPages: data.totalPages ?? 0,
-                    page: data.number ?? 0,
-                };
-            });
+            }>>(url).then(response => toStoresSearchResult(response.data));
+        },
+        // Same search as `search`, but over the HTTP QUERY method: filters travel
+        // in a JSON body (safe + idempotent, like GET) instead of a query string.
+        // Backend route: fw-store-service StoreQueryRouterConfig.
+        searchViaQuery: (params: StoreSearchParams): Promise<StoresSearchResult> => {
+            return fetchAPI<ApiResponse<{
+                content: Store[];
+                totalPages: number;
+                totalElements: number;
+                empty: boolean;
+                number: number;
+            }>>("/stores", {
+                method: "QUERY",
+                body: JSON.stringify(buildStoresQueryBody(params)),
+            }).then(response => toStoresSearchResult(response.data));
         },
         // Convenience wrapper for category pages — returns just items.
         getByCategory: (categorySlug: string, params?: Omit<StoreSearchParams, "categorySlug">): Promise<Store[]> => {

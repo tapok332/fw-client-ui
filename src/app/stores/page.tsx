@@ -76,7 +76,7 @@ export default function StoresPage() {
             try {
                 const [categoriesResult, result] = await Promise.all([
                     api.categories.getAll({ group: 'RETAIL' }),
-                    api.stores.search({
+                    api.stores.searchViaQuery({
                         group: 'RETAIL',
                         latitude: userCoordinates?.lat,
                         longitude: userCoordinates?.lng,
@@ -102,7 +102,7 @@ export default function StoresPage() {
     useEffect(() => {
         const applyFilters = async () => {
             try {
-                const result = await api.stores.search({
+                const result = await api.stores.searchViaQuery({
                     group: 'RETAIL',
                     categorySlug: selectedCategory ?? undefined,
                     minRating: minRating > 0 ? minRating : undefined,
@@ -131,7 +131,7 @@ export default function StoresPage() {
         const nextPage = page + 1;
         setIsLoadingMore(true);
         try {
-            const result = await api.stores.search({
+            const result = await api.stores.searchViaQuery({
                 group: 'RETAIL',
                 categorySlug: selectedCategory ?? undefined,
                 minRating: minRating > 0 ? minRating : undefined,
